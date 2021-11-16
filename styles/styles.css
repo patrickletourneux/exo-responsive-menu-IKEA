@@ -143,3 +143,19 @@ header input {
     }
 
 }
+
+@media screen and (max-width: 682px) {
+  #header-ligne-navigation{
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #header-ligne-navigation nav{
+    width: 30%;
+  }
+  #header__search{
+    width: 90%;
+    order: 1;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+}
