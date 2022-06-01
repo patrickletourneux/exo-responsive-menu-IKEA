@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(82, 80, 80);
+  /* background-color: rgb(82, 80, 80); */
 }
 
 #header__black-banniere {
@@ -32,6 +32,7 @@ hr {
   padding-top: 1rem;
   padding-bottom: 1rem;
   align-items: center;
+  justify-content: center;
 }
 #burger-menu {
   position: fixed;
@@ -146,6 +147,9 @@ header input {
 }
 
 @media screen and (max-width: 682px) {
+  .display-none-mobile{
+    display: none;
+  }
   
   #header__black-banniere {
     justify-content: left;
