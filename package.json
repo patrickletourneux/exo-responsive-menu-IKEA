@@ -1,0 +1,25 @@
+{
+  "name": "exo-responsive-menu-ikea",
+  "version": "1.0.0",
+  "description": "personnal exercise html/css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickletourneux/exo-responsive-menu-IKEA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickletourneux/exo-responsive-menu-IKEA/issues"
+  },
+  "homepage": "https://github.com/patrickletourneux/exo-responsive-menu-IKEA#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
